@@ -20,6 +20,13 @@
 - "use client"
     - The usage of hooks requires browser API to be called. Hence, any component that uses React hooks cannot be rendered on server
     - The "use client" at the top of any Next.js component indicates the component to be rendered on client side
+- Server components
+    - These components can interact with database.
+    - This helps you avoid creating APIs.
+    - Since, the component code is server generated, your database is not exposed via the client
+    - Hence, this is a way to create full stack applications for certain use cases
+- Data fetching
+    - Only one database request at a time and sequentially
 
 
 ## Next.js App Router Course - Starter
